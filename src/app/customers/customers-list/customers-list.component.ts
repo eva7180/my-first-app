@@ -22,7 +22,7 @@ export class CustomersListComponent implements OnInit {
 
   filteredCustomers: ICustomer[] = [];
   customersOrderTotal: number;
-  currencyCode: string = 'USD';
+  currencyCode: string = 'EUR';
 
   constructor() {}
 
